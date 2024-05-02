@@ -10,7 +10,7 @@ export const Navbar = () => {
         >
           <h1>BODOS</h1>
         </Link>
-        <div className="flex w-[400px] flex-row justify-between self-stretch">
+        <div className="flex max-w-[500px] w-full flex-row justify-between self-stretch">
           <Link
             className="flex h-full w-full flex-col items-center justify-center text-center"
             href="/"
@@ -35,6 +35,12 @@ export const Navbar = () => {
             href="#"
           >
             {`Sale`}
+          </Link>
+          <Link
+            className="flex h-full w-full flex-col items-center justify-center text-center"
+            href="#"
+          >
+            {`Cart`}
           </Link>
         </div>
       </div>
